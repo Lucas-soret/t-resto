@@ -16,6 +16,7 @@
      /* Utils */
      --smal-box-shadow: 1px -1px 7px 0 #00000061;
      --border: 1px solid #00000030;
+    }
 
      html, body {
         height: 100%;
@@ -36,6 +37,7 @@
         background-color: var(--white);
     }
 
+
      /* Header */
 .navbar {
     background-color: var(--off-white);
@@ -43,7 +45,7 @@
 }
 
 a.nav-link {
-    color: var(--red);
+    color: var(--black);
 }
 
 img.logo {
@@ -53,4 +55,20 @@ img.logo {
 .active {
     border-bottom: 2px solid var(--blue);
     font-weight: 500;
+}
+
+/* Footer */
+
+
+.social-icon {
+    height: 2rem;
+    margin: 1rem;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
 }
